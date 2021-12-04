@@ -322,6 +322,23 @@ body{
   
     .header .nav-toggle{
       top:5.8rem;
-    } 
+    }  
+  .home .banner{
+    font-size: 4rem;
+  }
+
+  .home .slogan{
+    font-size: 1.7rem;
+  }
+
+  .about .row{
+    flex-flow: column-reverse;
+    padding:0 2rem;
+  }
+
+  .about .row .image img{
+    width: 100vw;
+  }
+
 
 }
