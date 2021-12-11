@@ -8,7 +8,6 @@
   font-family: 'Poppins', sans-serif;
   margin:0; padding:0;
   box-sizing: border-box;
-  text-transform: capitalize;
   transition: all .2s linear;
   text-decoration: none;
 }
@@ -57,9 +56,13 @@ body{
     color:#fff;
     cursor: pointer;
     height:3.5rem;
-    width: 15rem;
+    width: 25rem;
     font-size: 1.7rem;
-    box-shadow: 0 .2rem .5rem rgba(0,0,0,.3);
+    background: #fc00ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow: 0 .2rem .5rem rgba(0,0,0,.3); 
   }
   
   .btn:hover{
@@ -68,7 +71,7 @@ body{
   }
   
   .nav-brand {
-    width: 50px;
+    width: 300px;
   }
  
 
@@ -84,9 +87,15 @@ body{
     position: fixed;
     top:0; left: 0;
     z-index: 100;
-    padding:0 .5rem;
+  }
+  
+  .header .logo{
     font-size: 2.5rem;
     color:#fff;
+  }
+  
+  .header .logo i{
+    padding:0 .5rem;
   }
   
   .header .navbar ul{
@@ -281,6 +290,15 @@ body{
 .service{
   width: 100vw;
   text-align: center;
+}
+
+.paquetes {
+  text-align: center;
+  padding-bottom: 50px;
+} 
+
+.footer-paquetes {
+  padding-top: 15px;
 }
 
 .service .row{
@@ -559,10 +577,7 @@ body{
   color:#fff;
   font-size: 1.8rem;
   padding:0 1rem;
-}
-
-
-
+} 
 
 
 
@@ -685,4 +700,6 @@ body{
   .footer .icons{
     padding:2rem 0;
   }
-}
+} 
+
+
