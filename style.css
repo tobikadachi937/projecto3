@@ -59,9 +59,8 @@ body{
     width: 25rem;
     font-size: 1.7rem;
     background: #fc00ff;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     box-shadow: 0 .2rem .5rem rgba(0,0,0,.3); 
   }
   
@@ -352,7 +351,8 @@ background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, F
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
+  
 }
 
 .team .row .card{
@@ -363,12 +363,14 @@ background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, F
   margin:7rem 2rem;
   position: relative;
   overflow: hidden;
-  -webkit-box-reflect: below .2rem linear-gradient(transparent 70%, #0004);
+  -webkit-box-reflect: below .2rem linear-gradient(transparent 70%, #0004); 
+  
 }
 
-.team .row .card .image{
+.team .row .card .image:hover{
   margin:1rem 0;
-  padding-top: 4rem;
+  padding-top: 4rem; 
+  
 }
 
 .team .row .card .image img{
@@ -376,8 +378,8 @@ background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, F
   width:13rem;
   border-radius: 50%;
   border:.5rem solid #fff;
-  box-shadow: 0 0 .5rem rgba(0,0,0,.3);
-  object-fit: cover;
+  box-shadow: 0 0 .5rem rgb(204, 5, 5);
+  object-fit: cover; 
 }
 
 .team .row .card .info h3{
@@ -398,7 +400,7 @@ background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, F
 }
 
 .team .row .card .info .icons a:hover{
-  color:var(--color);
+  color:var(--color); 
 }
 
 .team .row .card::before, .team .row .card::after{
@@ -701,5 +703,31 @@ background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, F
     padding:2rem 0;
   }
 } 
+
+/*Whatsapp*/
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+    background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
 
 
