@@ -23,8 +23,7 @@ $(document).ready(function(){
     $(this).next('.accordion-body').slideDown();
     $('.accordion .accordion-header span').text('+');
     $(this).children('span').text('-');
-  });
+  }); 
 
+}); 
 
-
-});
