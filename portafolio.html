@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -13,10 +12,56 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
   <!-- custom css file link  -->
-
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="style.css">
 
-    <title>Portafolio</title>
+    <title>Portafolio</title> 
+
+    <style>
+      * {box-sizing: border-box}
+      .mySlides1, .mySlides2 {display: none}
+      img {vertical-align: middle;}
+      
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px; 
+      }  
+      .prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+      
+      
+      /* On hover, add a grey background color */
+      .prev:hover, .next:hover {
+        background-color: #f1f1f1;
+        color: black;
+      }
+      </style>
 </head>
 
 <body> 
@@ -79,107 +124,73 @@
 <!-- portafolio section starts--> 
 
 <section id="portafolio2" class="service" > 
-    <h1 class="heading">Portafolio</h1> 
-    <div class="row">
+  <h2 style="text-align:center" class="w3-xxlarge w3-padding-24">Portafolio</h2>
 
-        <div class="image">
-          <br><br><br><br> 
-          <img src="https://user-images.githubusercontent.com/65374030/147445694-d2285b5f-4a40-4da7-98e0-3a8fa37f622b.png" alt="diseño página web alienstore">
-          <br><br><br><br> 
-          <a href="https://tobikadachi937.github.io/AlienStore/" target="_blank"><button class="btn">Visita la Web</button></a>
-        </div>
-        <div class="content">
-        
-          
-           </div>
-      
-      </div> 
-
-      <div class="row">
-        <div class="image"> 
-          <br><br><br><br>
-          <img src="https://user-images.githubusercontent.com/65374030/147841070-073c573f-859d-4c06-90b0-838713a041d7.png" alt="diseño página tienda tenis">
-          <br><br><br><br>
-          <a href="https://tobikadachi937.github.io/tokes/" target="_blank"><button class="btn">Visita la Web</button></a>
-        </div>
-      
-      </div> 
-
-      <div class="row">
-        <div class="image"> 
-          <br><br><br><br>
-          <img src="https://user-images.githubusercontent.com/65374030/147991682-6d93a384-682f-40bf-8c82-58792a71751d.png" alt="diseño página tienda tenis">
-          <br><br><br><br>
-          <a href="https://tobikadachi937.github.io/pizzeria/" target="_blank"><button class="btn">Visita la Web</button></a>
-        </div>
-      
-      </div>
-      
-      <div class="row">
-        <div class="image"> 
-          <br><br><br><br>
-          <img src="https://user-images.githubusercontent.com/65374030/147445697-1ba9bb92-cb60-4a5e-961b-096f74abde08.png" alt="diseño página yoga">
-          <br><br><br><br>
-          <a href="https://tobikadachi937.github.io/yoga/" target="_blank"><button class="btn">Visita la Web</button></a>
-        </div>
-      
-      </div>
-      
-      <div class="row">
-      
-        
-        <div class="image"> 
-            <br><br><br><br>
-          <img src="https://user-images.githubusercontent.com/65374030/147445692-468dbf2e-93e2-458d-9eea-2fc445967fa0.png" alt="diseño página web tienda computadoras">
-          <br><br><br><br> 
-          <a href="https://tobikadachi937.github.io/tiendacompu/" target="_blank"><button class="btn">Visita la Web</button></a>
-        </div>
-        
-          
-        </div>
-      
-      </div>
-      
-      <div class="row">
-        <div class="image"> 
-            <br><br><br><br>
-          <img src="https://user-images.githubusercontent.com/65374030/147445695-11db42d0-2e76-4494-8554-1cd794e69693.png" alt="diseño página web tienda audifonos">
-          <br><br><br><br>
-          <a href="https://tobikadachi937.github.io/audifonos/" target="_blank"><button class="btn">Visita la Web</button></a>
-        </div>
+  <p class="w3-xlarge w3-padding-24">Desliza para Explorar los Diseños Páginas Web, Click para Visitarlos</p>
+  <div class="slideshow-container">
+    <div class="mySlides1">
+      <a href="https://tobikadachi937.github.io/AlienStore/"><img src="https://user-images.githubusercontent.com/65374030/147445694-d2285b5f-4a40-4da7-98e0-3a8fa37f622b.png" style="width:100%"><p class="w3-medium w3-padding-24">Tienda AlienStore</p></a>
+    </div>
+  
+    <div class="mySlides1">
+      <a href="https://tobikadachi937.github.io/tokes/"><img src="https://user-images.githubusercontent.com/65374030/147841070-073c573f-859d-4c06-90b0-838713a041d7.png" style="width:100%"><p class="w3-medium w3-padding-24">Tienda Deporte</p></a>
+    </div>
+  
+    <div class="mySlides1">
+      <a href="https://tobikadachi937.github.io/tiendacompu/"><img src="https://user-images.githubusercontent.com/65374030/147445692-468dbf2e-93e2-458d-9eea-2fc445967fa0.png" style="width:100%"><p class="w3-medium w3-padding-24">Tienda Computación</p></a>
+    </div> 
     
-</section> 
-
-<!-- contact section starts  -->
-
-<section id="contact" class="contact">
-
-  <h1 class="heading">Contáctanos</h1>
-  
-  
-  <div class="row">
-  
-    <div class="image">
-      <img src="https://user-images.githubusercontent.com/65374030/144692650-fefef6b1-f2c8-43ce-99fc-95ea65946d68.png" alt="Contáctanos">
+    <div class="mySlides1">
+      <a href="https://tobikadachi937.github.io/pizzeria/"><img src="https://user-images.githubusercontent.com/65374030/147991682-6d93a384-682f-40bf-8c82-58792a71751d.png" style="width:100%"><p class="w3-medium w3-padding-24">Pizzeria</p></a>
+    </div> 
+    
+    <div class="mySlides1">
+      <a href="https://tobikadachi937.github.io/yoga/"><img src="https://user-images.githubusercontent.com/65374030/147445697-1ba9bb92-cb60-4a5e-961b-096f74abde08.png" style="width:100%"><p class="w3-medium w3-padding-24">Tienda de Yoga</p></a>
+    </div> 
+    
+    <div class="mySlides1">
+      <a href="https://tobikadachi937.github.io/audifonos/"><img src="https://user-images.githubusercontent.com/65374030/147445695-11db42d0-2e76-4494-8554-1cd794e69693.png" style="width:100%"><p class="w3-medium w3-padding-24">Tienda audífonos</p></a>
     </div>
   
-    <div class="form-container">
-      <form name="contact" method="POST" data-netlify="true">
-  
-        <div class="inputBox">
-          <input type="text" placeholder="Nombre">
-          <input type="text" placeholder="Apellidos">
-        </div>
-  
-        <input type="email" placeholder="Email">
-        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-        <input type="submit" value="Enviar">
-  
-      </form>
-    </div>
-  
+    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
   </div>
   
+  <p class="w3-xlarge w3-padding-32">Desliza para Explorar los Diseños de Tarjetas de Presentación Virtuales, Click para Visitarlas</p>
+  <div class="slideshow-container">
+    <div class="mySlides2">
+      <a href="https://tarjeta-de-presentacion.github.io/desarrollador-web/"><img src="https://user-images.githubusercontent.com/97907653/150045781-a2c6ffe6-a1b9-434d-88da-3ecaeacef31e.png" style="width:100%"><p class="w3-medium w3-padding-24">Tarjeta Presetación Desarrollador Web</p></a>
+    </div>
+  
+    <div class="mySlides2">
+      <a href="https://tarjeta-de-presentacion.github.io/contador/"><img src="https://user-images.githubusercontent.com/97907653/150042500-d3695346-5f10-44cb-8e19-05f47e8fbdf9.png" style="width:100%"><p class="w3-medium w3-padding-24">Tarjeta Presetación Contador</p></a>
+    </div>
+  
+    <div class="mySlides2">
+      <a href="https://tarjeta-de-presentacion.github.io/chef/"><img src="https://user-images.githubusercontent.com/97907653/150043203-0b438916-dc0b-43b7-8e63-da0595d7e748.png" style="width:100%"><p class="w3-medium w3-padding-24">Tarjeta Presetación Chef</p></a>
+    </div> 
+    
+    <div class="mySlides2">
+      <a href="https://tarjeta-de-presentacion.github.io/abogado/"><img src="https://user-images.githubusercontent.com/97907653/150041949-780eaa3b-f9c7-46b1-8c9f-5076ef27c59a.png" style="width:100%"><p class="w3-medium w3-padding-24">Tarjeta Presetación Abogado</p></a>
+    </div> 
+    
+    <div class="mySlides2">
+      <a href="https://tarjeta-de-presentacion.github.io/barbero/"><img src="https://user-images.githubusercontent.com/97907653/150042110-bb159553-2410-4a2b-af0a-4806f5758f67.png" style="width:100%"><p class="w3-medium w3-padding-24">Tarjeta Presetación Barbero</p></a>
+    </div> 
+    
+    <div class="mySlides2">
+      <a href="https://tarjeta-de-presentacion.github.io/Felipe/"><img src="https://user-images.githubusercontent.com/97907653/150041945-2b14f6f9-aea4-42b8-a529-8067981879a2.png" style="width:100%"><p class="w3-medium w3-padding-24">Tarjeta Presetación Asesor Financiero</p></a>
+    </div>  
+    
+    <div class="mySlides2">
+      <a href="https://tarjeta-de-presentacion.github.io/andres/"><img src="https://user-images.githubusercontent.com/65374030/147445697-1ba9bb92-cb60-4a5e-961b-096f74abde08.png" style="width:100%"><p class="w3-medium w3-padding-24">Tarjeta Presetación Instructor de Cliclismo</p></a>
+    </div> 
+    
+   
+  
+    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+  </div>
   </section>
   
   <!-- contact section ends --> 
@@ -189,7 +200,7 @@
 
 <section class="footer">
 
-    <h1>Copyright © Web Creators Inc. All rights reserved</h1>
+    <h1 class="w3-medium">Copyright © Web Creators Inc. All rights reserved</h1>
     
     <div class="icons">
       <a class="fab fa-facebook-f"></a>
@@ -209,6 +220,26 @@
     <!-- custom js file link  -->
     
     <script src="main.js"></script>
-    
+    <script>
+      var slideIndex = [1,1];
+      var slideId = ["mySlides1", "mySlides2"]
+      showSlides(1, 0);
+      showSlides(1, 1);
+      
+      function plusSlides(n, no) {
+        showSlides(slideIndex[no] += n, no);
+      }
+      
+      function showSlides(n, no) {
+        var i;
+        var x = document.getElementsByClassName(slideId[no]);
+        if (n > x.length) {slideIndex[no] = 1}    
+        if (n < 1) {slideIndex[no] = x.length}
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";  
+        }
+        x[slideIndex[no]-1].style.display = "block";  
+      }
+      </script>
 </body>
 </html>
