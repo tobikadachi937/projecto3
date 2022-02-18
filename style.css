@@ -310,7 +310,6 @@ body{
 
 .service .row .image img{
   width:50vw;
-  height:55vh;
 }
 
 .service .row .content{
@@ -374,7 +373,7 @@ body{
 }
 
 .team .row .card .image img{
-  height:13rem;
+  height:100%;
   width:13rem;
   border-radius: 50%;
   border:.5rem solid #fff;
@@ -729,5 +728,8 @@ body{
 .my-float{
 	margin-top:16px;
 }
+
+
+
 
 
